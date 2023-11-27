@@ -4,15 +4,15 @@ require('dotenv').config();
 const API = process.env.API;
 
 module.exports = {
-  getBlogInformation = function(req, res) {
+  getBlogInformation: function(req, res) {
     axios.get(
       `${API}`
     )
     .then(function (response) {
-      console.log(response);
+      res.json(response.data);
     })
     .catch(function (error) {
-      console.log(error);
+      res.status(500).send('error retrieving information');
     })
   }
 }
