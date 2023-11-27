@@ -1,0 +1,19 @@
+{
+  "name": "vanilla-framework-blog-cards",
+  "version": "1.0.0",
+  "description": "Blog Cards created using the vanilla framework",
+  "main": "babel.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnovak79/Vanilla-Framework-Blog-Cards.git"
+  },
+  "author": "JN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnovak79/Vanilla-Framework-Blog-Cards/issues"
+  },
+  "homepage": "https://github.com/jnovak79/Vanilla-Framework-Blog-Cards#readme"
+}

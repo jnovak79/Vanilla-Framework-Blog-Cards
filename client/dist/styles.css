@@ -1,0 +1,11 @@
+.app {
+  text-align: center;
+}
+
+.chatBox {
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 30vh;
+  width: 70%;
+  border: solid;
+}

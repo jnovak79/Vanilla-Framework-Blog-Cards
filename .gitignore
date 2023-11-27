@@ -1,0 +1,11 @@
+# node_modules
+node_modules
+
+# .env
+.env
+
+# webpack bundle
+client/dist/bundle.js
+
+# Chatroom
+/client/src/components/Chatroom.jsx
