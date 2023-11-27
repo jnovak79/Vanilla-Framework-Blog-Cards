@@ -4,7 +4,7 @@ const App = () => {
 
   return (
     <div className='app'>
-      <h1>Boiler Plate</h1>
+      <h1>Blog Cards</h1>
     </div>
   )
 };
