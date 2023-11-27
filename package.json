@@ -6,7 +6,7 @@
   "scripts": {
     "client-dev": "webpack --mode development --watch",
     "server-dev": "npx nodemon server/index.js",
-    "SASS-comp" : "sass --watch input-styles.scss client/dist/SASS-styles.css"
+    "build-CSS" : "sass --watch input-styles.scss client/dist/SASS-styles.css"
   },
   "repository": {
     "type": "git",
