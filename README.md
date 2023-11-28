@@ -28,6 +28,8 @@ To run this application, you need the following installed on your machine:
     SERVER_PORT=your_server_port
     API=your_API_url
 
+*Note that if the application initially does not connect to the API, you may need to add https:// to the beginning of it.
+
 ### Running the application
 
 1. In the terminal, type in the following command to bundle the files with webpack and build the CSS style sheet

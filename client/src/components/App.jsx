@@ -4,6 +4,7 @@ import ArticleCard from './ArticleCard.jsx';
 
 const App = () => {
 
+  const [connectionError, setConnectionError] = useState(false);
   const [articleInfo, setArticleInfo] = useState([]);
 
   useEffect(function() {
@@ -13,7 +14,10 @@ const App = () => {
       .then((result) => {
         setArticleInfo(result.data);
       })
-      .catch((error) => {console.log(error)});
+      .catch((error) => {
+        setConnectionError(true);
+        console.log(error)
+      });
   }, []);
 
 
@@ -26,6 +30,13 @@ const App = () => {
           )
         })}
       </div>
+      {connectionError &&
+      <div class="p-notification--negative">
+        <div class="p-notification__content">
+          <h5 class="p-notification__title">Error</h5>
+          <p class="p-notification__message">Error connecting to the API</p>
+        </div>
+      </div>}
     </div>
   )
 };
