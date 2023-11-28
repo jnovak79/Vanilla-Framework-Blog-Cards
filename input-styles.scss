@@ -2,12 +2,19 @@
 @include vanilla;
 
 .app {
-  text-align: center;
+  text-align: left;
 }
 
 .p-card--highlighted {
   border-top: 0.2em solid purple;
-  margin: 5%;
+  margin: 5% 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  h1 {
+    font-size: 1.2em;
+    line-height: 1.3em;
+  }
 }
 
 .u-sv1 {
@@ -15,5 +22,23 @@
   background-color: transparent;
   border-top: 0.1em dotted lightgray;
   height: 0;
+  margin: 3% 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0 5%;
+  padding-bottom: 5%;
+}
+
+.col {
+  flex: 1;
+  padding: 0;
   margin: 0;
+}
+
+.bottomCardPortion {
+  margin-top: auto;
 }
