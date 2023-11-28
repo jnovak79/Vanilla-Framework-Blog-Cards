@@ -6,8 +6,6 @@ const App = () => {
 
   const [articleInfo, setArticleInfo] = useState([]);
 
-  console.log(articleInfo);
-
   useEffect(function() {
     let url = '/blogs';
 
