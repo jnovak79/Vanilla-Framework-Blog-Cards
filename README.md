@@ -28,7 +28,7 @@ To run this application, you need the following installed on your machine:
     SERVER_PORT=your_server_port
     API=your_API_url
 
-*Note that if the application initially does not connect to the API, you may need to add 'https://' to the beginning of the API endpoint in the .env file.
+*Note that if the application initially does not connect to the API, you may need to add 'https://' to the beginning of the API endpoint in the .env file. Remember to manually reset the server after making the changes.
 
 ### Running the application
 
