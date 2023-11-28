@@ -4,3 +4,16 @@
 .app {
   text-align: center;
 }
+
+.p-card--highlighted {
+  border-top: 0.2em solid purple;
+  margin: 5%;
+}
+
+.u-sv1 {
+  border: none;
+  background-color: transparent;
+  border-top: 0.1em dotted lightgray;
+  height: 0;
+  margin: 0;
+}

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import axios from 'axios';
+import ArticleCard from './ArticleCard.jsx';
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
   return (
     <div className='app'>
       <h1>Blog Cards</h1>
+      <ArticleCard />
     </div>
   )
 };
